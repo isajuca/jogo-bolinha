@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# 🏆 Coletor de Orbes - Isadora Jucá de Lima
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> Status do Projeto: Concluído ✔️
 
-## Get started
+---
 
-1. Install dependencies
+### Tabela de Conteúdos
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Demonstração da Aplicação](#demonstração-da-aplicação)
+* [Funcionalidades](#-funcionalidades)
+* [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+* [Como Rodar o Projeto Localmente](#️-como-rodar-o-projeto-localmente)
+* [Funcionalidade Adicional](#-funcionalidade-adicional)
+* [Autor](#-autor)
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+### Descrição do Projeto
+<p align="center">
+Este projeto é um jogo interativo de coleta de orbes, desenvolvido com React Native e Expo. A aplicação utiliza o giroscópio do dispositivo para movimentar uma bolinha pela tela, com o objetivo de capturar orbes gerados aleatoriamente. O projeto inclui sistema de colisão e pontuação em tempo real, além de melhorias de performance na leitura dos sensores.
+</p>
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+### 🚀 Funcionalidades
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Controle por Giroscópio:** Movimentação fluida em 60 FPS utilizando os sensores do dispositivo.
+- **Sistema de Colisões:** Detecção precisa de colisão entre círculos (personagem e orbes) calculada com base em seus raios.
+- **Placar Dinâmico:** A pontuação é atualizada a cada orbe coletado.
+- **Geração Segura de Orbes:** Sistema de spawn que garante que o orbe apareça 100% dentro da área visível da tela.
+- **Navegação de Telas:** Tela inicial de apresentação com opção de iniciar o jogo utilizando o Expo Router.
+- **Funcionalidade Adicional:** **[Coloque aqui se implementou algo a mais, como som ou timer]** (ex: Efeitos sonoros ao coletar orbes).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+### 🛠️ Tecnologias Utilizadas
 
-When you're ready, run:
+- **[React Native](https://reactnative.dev/)**
+- **[Expo](https://expo.dev/)**
+- **[Expo Sensors (Gyroscope)](https://docs.expo.dev/versions/latest/sdk/sensors/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+
+---
+
+### ⚙️ Como Rodar o Projeto Localmente
 
 ```bash
-npm run reset-project
+# 1. Clone o repositório
+$ git clone [link-do-seu-repositorio]
+
+# 2. Navegue até o diretório do projeto
+$ cd aula-giroscopio
+
+# 3. Instale as dependências
+$ npm install
+
+# 4. Inicie o servidor de desenvolvimento
+$ npm start
 ```
+Após executar `npm start`, pressione `w` para abrir no navegador ou escaneie o QR Code com o app Expo Go no seu celular.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### 👨💻 Autor
 
-To learn more about developing your project with Expo, look at the following resources:
+Desenvolvido por **Isadora Jucá de Lima**.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Sob a orientação do **Prof. Rafael Ribas**.
