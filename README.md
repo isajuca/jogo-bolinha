@@ -29,7 +29,7 @@ Este projeto é um jogo interativo de coleta de orbes, desenvolvido com React Na
 - **Placar Dinâmico:** A pontuação é atualizada a cada orbe coletado.
 - **Geração Segura de Orbes:** Sistema de spawn que garante que o orbe apareça 100% dentro da área visível da tela.
 - **Navegação de Telas:** Tela inicial de apresentação com opção de iniciar o jogo utilizando o Expo Router.
-- **Funcionalidade Adicional:** **[Coloque aqui se implementou algo a mais, como som ou timer]** (ex: Efeitos sonoros ao coletar orbes).
+- **Funcionalidade Adicional:** Contador de capturas e tela inicial de apresentação. (O contador de capturas exibe o número total de orbes coletados pelo jogador, enquanto a tela inicial de apresentação fornece informações sobre o jogo e permite que o usuário inicie a partida.)
 
 ---
 
